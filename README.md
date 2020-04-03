@@ -252,6 +252,22 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 ---
 
+---
+## tinymapper.sh
+
+- 脚本说明: tinyPortMapper 一键安装管理脚本
+- 系统支持: CentOS6+ / Debian6+ / Ubuntu14+
+- 如果你要用本地服务器的2222端口转发IP为1.2.3.4服务器的8888端口，那就依次填入指定参数。
+- 请输入本地端口:2222
+- 请输入远程端口:8888
+- 请输入远程IP:1.2.3.4
+#### 下载安装:
+``` bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/ppopcn/doubi_backup/master/tinyPortMapper.sh && chmod +x tinyPortMapper.sh && bash tinyPortMapper.sh
+```
+
+---
+
 ## BT下载相关
 
 ## aria2.sh
